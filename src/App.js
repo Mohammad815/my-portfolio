@@ -9,6 +9,7 @@ import Home from './components/HomePage/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Header from './components/Shared/Header/Header';
+import AddProject from './components/AddProject/AddProject';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="/home" element={<Home />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="addproject" element={<AddProject />} />
         </Routes>
      
     </BrowserRouter>
