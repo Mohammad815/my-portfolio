@@ -11,13 +11,13 @@ const AddProject = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    // fetch("https://sheltered-lake-09229.herokuapp.com/AddProject", {
-    //   method: "POST",
-    //   headers: { "content-type": "application/json" },
-    //   body: JSON.stringify(data),
-    // })
-    //   .then((res) => res.json())
-    //   .then((result) => console.log(result));
+    fetch("https://secret-everglades-79957.herokuapp.com/AddProject", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((result) => console.log(result));
     console.log(data);
   };
   return (

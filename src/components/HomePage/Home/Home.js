@@ -4,6 +4,8 @@ import './Home.css'
 import Axios from 'axios';
 import fileDownload from 'js-file-download';
 import img from '../../../images/forhad.jpg'
+import MyProjects from '../MyProjects/MyProjects';
+import Contact from '../../Contact/Contact';
 
 const Home = () => {
     const download = (e) =>{
@@ -35,6 +37,8 @@ const Home = () => {
                
             </div>
             </div>
+            <MyProjects></MyProjects>
+            <Contact></Contact>
         </div>
     );
 };
