@@ -11,13 +11,13 @@ const AddProject = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    fetch("https://secret-everglades-79957.herokuapp.com/AddProject", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((result) => console.log(result));
+    // fetch("https://secret-everglades-79957.herokuapp.com/AddProject", {
+    //   method: "POST",
+    //   headers: { "content-type": "application/json" },
+    //   body: JSON.stringify(data),
+    // })
+    //   .then((res) => res.json())
+    //   .then((result) => console.log(result));
     console.log(data);
   };
   return (
@@ -25,7 +25,7 @@ const AddProject = () => {
       <div>
         <h1 className="mt-5 text-center text-danger">Please Add Services</h1>
         <div className=" w-25 m-auto mt-5">
-          <div className=" ">
+          <div >
             <div className="">
               <form onSubmit={handleSubmit(onSubmit)}>
                 <input

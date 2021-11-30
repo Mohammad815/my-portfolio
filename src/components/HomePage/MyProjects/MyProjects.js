@@ -5,17 +5,23 @@ import { Link } from 'react-router-dom';
 import './MyProjects.css'
 
 const MyProjects = () => {
+    // const [projects, setprojects] = useState([]);
+    // useEffect(() => {
+    //   fetch("https://secret-everglades-79957.herokuapp.com/allProjects")
+    //     .then((res) => res.json())
+    //     .then((data) => setprojects(data));
+    // }, []);
+  //  console.log(projects)
     const [projects, setprojects] = useState([]);
-    useEffect(() => {
-      fetch("https://secret-everglades-79957.herokuapp.com/allProjects")
-        .then((res) => res.json())
-        .then((data) => setprojects(data));
-    }, []);
+    useEffect(()=>{
+      fetch('./projects.json')
+      .then(res=>res.json())
+      .then(data=>setprojects(data))
+    })
    
-   console.log(projects)
     return (
         <div>
-      <h2 className="text-info mt-5 mb-4">Trending Product</h2>
+      <h2 className="text-info mt-5 mb-4">Recent Projects</h2>
       <Container>
       <div className="services ">
         <div className="row container ">
@@ -23,13 +29,16 @@ const MyProjects = () => {
             <div className="col-md-6 col-lg-4 toy-img mb-3">
               
               <Card>
-                   <Card.Img variant="top" src={pd?.image} />
+                   <Card.Img className="projectImg" variant="top" src={pd?.image} />
                         <Card.Body>
                         <h1>{pd.name}</h1>
                          
-                            <button  className="btn btn-info p-2 fs-5"> <a href="{pd.live}" target="_blank">Live</a></button>
+                            {/* <button  className="btn btn-info p-2 fs-5"> <a href="{pd.liveLink}" target="_blank">Live</a></button>
+                            <button  className="btn btn-info p-2 fs-5"> <a href="{https://niche-projects.web.app/}" target="_blank">Live</a></button>
+                            <button  className="btn btn-info p-2 fs-5"> <a href="{pd.clienSite}" target="_blank">Client</a></button>
+                           
                          
-                           <button  className="btn btn-info p-2 fs-5"> <a href="{pd.server}" target="_blank">Server Site</a></button>
+                           <button  className="btn btn-info p-2 fs-5"> <a href="{pd.serverSite}" target="_blank">Server</a></button> */}
                            {/* <button> <a href="{pd.client}" target="_blank">Client Site</a></button> */}
                         
                            <Link to={``}>
