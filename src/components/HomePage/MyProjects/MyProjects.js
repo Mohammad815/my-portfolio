@@ -29,7 +29,7 @@ const MyProjects = () => {
             <div className="col-md-6 col-lg-4 toy-img mb-3">
               
               <Card>
-                   <Card.Img className="projectImg" variant="top" src={pd?.image} />
+                   <Card.Img className="projectImg w-100%" variant="top" src={pd?.image} />
                         <Card.Body>
                         <h1>{pd.name}</h1>
                          
