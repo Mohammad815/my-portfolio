@@ -3,3 +3,15 @@
     width: 300px;
     border-radius: 50%;    
 }
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homebutton{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link{
+    text-decoration: none;
+}

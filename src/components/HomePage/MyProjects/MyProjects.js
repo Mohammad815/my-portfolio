@@ -31,7 +31,17 @@ const MyProjects = () => {
               <Card>
                    <Card.Img className="projectImg w-100%" variant="top" src={pd?.image} />
                         <Card.Body>
-                        <h1>{pd.name}</h1>
+                        <h3>{pd.name}</h3>
+
+                        <div className="homebutton">
+                          <div>
+                          <button  className="btn btn-info p-2 fs-5"> <a className="link" href={pd.liveLink} target="_blank" rel="noreferrer">Live Link</a></button>
+                          </div>
+                          <div>
+                          <button  className="btn btn-info p-2 fs-5 "> <a className="link" href={pd.clienSite} target="_blank" rel="noreferrer">Code Link</a></button>
+                          </div>
+                        </div>
+                           
                          
                             {/* <button  className="btn btn-info p-2 fs-5"> <a href="{pd.liveLink}" target="_blank">Live</a></button>
                             <button  className="btn btn-info p-2 fs-5"> <a href="{https://niche-projects.web.app/}" target="_blank">Live</a></button>
@@ -41,9 +51,9 @@ const MyProjects = () => {
                            <button  className="btn btn-info p-2 fs-5"> <a href="{pd.serverSite}" target="_blank">Server</a></button> */}
                            {/* <button> <a href="{pd.client}" target="_blank">Client Site</a></button> */}
                         
-                           <Link to={``}>
+                           {/* <Link to={``}>
                               <button className="btn btn-info p-2 fs-5">Details</button>
-                            </Link>
+                            </Link> */}
                           
                             {/* <Link to={`/projects/${pd._id}`}>
                               <button className="btn btn-info p-2 fs-5">Order Now</button>
