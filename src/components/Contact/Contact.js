@@ -11,7 +11,8 @@ const Contact = () => {
         }).catch(err=>console.log(err));
     }
     return (
-        <div className="container border contactForm">
+        <div className="contactForm">
+        <div className="container p-3 contactForm">
             <h1>Contact Form</h1>
             <form className="row form" onSubmit={sendEmail}>
                 <label className="fs-2">name</label>
@@ -22,6 +23,7 @@ const Contact = () => {
                 <textarea name="message" rows="4"></textarea>
                 <input type="submit" value="send" className="form-control  btn btn-primary fs-3 mt-5"/>
             </form>
+        </div>
         </div>
     );
 };

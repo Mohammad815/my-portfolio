@@ -10,9 +10,9 @@ const Header = () => {
         <Navbar.Brand href="#home">Mohammad Forhad</Navbar.Brand>
         <Nav className="ms-auto ">
           <Link className="link" to="/home">Home</Link>
-          <Link className="link" to="/contact">Contact</Link>
           <Link className="link" to="/about">About</Link>
-          {/* <Link className="link" to="/addproject">AddProject</Link> */}
+          <Link className="link" to="/blog">Blog</Link>
+          <Link className="link" to="/contact">Contact</Link>
         </Nav>
         </Container>
       </Navbar>

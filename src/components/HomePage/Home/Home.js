@@ -7,6 +7,7 @@ import img from '../../../images/forhad.jpg'
 import MyProjects from '../MyProjects/MyProjects';
 import Contact from '../../Contact/Contact';
 import bg from '../../../images/bg.png'
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
 
@@ -30,9 +31,10 @@ const Home = () => {
         })
     }
     return (
-        <div className="">
-            <div className="container">
-            <div className="row mt-3" style={ bgimg }>
+        <div >
+            <div style={ bgimg } >
+            <Container>
+            <div className="row p-5" >
                  <div className="col-md-5">
                     <img className="img" src={img} alt="" />
                 </div>
@@ -40,14 +42,13 @@ const Home = () => {
                     <div>
                     <h2>I`m Mohammad Forhd</h2>
                     <h4>Junior Front End Developer</h4>
-                    {/* <p>This is Forhad.I Comoleted my graduation from east Delta university.Computer Science graduated passionate about MERN stack learning. Proficient in a range of   modern technologies including HTML, CSS3, JavaScript Plus modern libraries and frameworks.</p> */}
                     <div style={{textAlign:'center'}}>
                     <button className="btn btn-info p-3" onClick={(e)=>download(e)}>DownLoad Resume</button>
                     </div>
                     </div>
-                </div>
-               
+                </div> 
             </div>
+            </Container>
             </div>
             <MyProjects></MyProjects>
             <Contact></Contact>
