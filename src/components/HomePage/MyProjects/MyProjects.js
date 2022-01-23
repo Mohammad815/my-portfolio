@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Container, } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 import './MyProjects.css'
@@ -20,9 +21,9 @@ const MyProjects = () => {
       <div className="services ">
         <div className="row container ">
           {projects?.map((pd, index) => (
-            <div className="col-md-6 col-lg-4 toy-img mb-3">
+            <div className="col-md-6 col-lg-4 toy-img mb-3 ">
               
-              <Card>
+              <Card card-item>
                    <Card.Img className="projectImg w-100%" variant="top" src={pd?.image} />
                         <Card.Body>
                         <h3>{pd.name}</h3>
@@ -34,6 +35,11 @@ const MyProjects = () => {
                           <div>
                           <button className="btn btn-info p-2 fs-5 "><a className="link" href={pd.clienSite} target="_blank" rel="noreferrer">Code Link</a></button>
                           </div>
+                          <Link to={`/projects
+                          /${pd.id}`}>
+                              {" "}
+                              <button className="btn btn-info p-2 fs-5">Order Now</button>
+                            </Link>
                         </div>
                            
                         </Card.Body>

@@ -12,6 +12,7 @@ import Header from './components/Shared/Header/Header';
 import AddProject from './components/AddProject/AddProject';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
+import ProjectDetails from './components/HomePage/ProjectDetails/ProjectDetails';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="addproject" element={<AddProject />} />
           <Route path="about" element={<About />} />
+          <Route path="projects/:projectId" element={<ProjectDetails />} />
           <Route path="blog" element={<Blog />} />
         </Routes>
      

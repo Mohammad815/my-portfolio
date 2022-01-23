@@ -4,9 +4,10 @@ import './Home.css'
 import Axios from 'axios';
 import fileDownload from 'js-file-download';
 import img from '../../../images/forhad.jpg'
+
 import MyProjects from '../MyProjects/MyProjects';
 import Contact from '../../Contact/Contact';
-import bg from '../../../images/bg.png'
+
 import { Container } from 'react-bootstrap';
 import Particles from "react-tsparticles";
 

@@ -9,7 +9,7 @@ const projects = [
     
     },
     {
-        id:1,
+        id:2,
         name:"Travel Agency App",
         image:"https://i.ibb.co/DMrB2S0/travelagency.png",
         liveLink: "https://tourism-site-303c3.web.app/login",
@@ -18,7 +18,7 @@ const projects = [
     
     },
     {
-        id:1,
+        id:3,
         name:"Kids Toys App",
         image:"https://i.ibb.co/9yZDj4n/doctors-portal.png",
         liveLink: "https://healthcare-authenticatio-7ff05.web.app/",
