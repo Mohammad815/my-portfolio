@@ -23,25 +23,24 @@ const MyProjects = () => {
           {projects?.map((pd, index) => (
             <div className="col-md-6 col-lg-4 toy-img mb-3 ">
               
-              <Card card-item>
-                   <Card.Img className="projectImg w-100%" variant="top" src={pd?.image} />
-                        <Card.Body>
+              <Card className='card'>
+                   <Card.Img className="img w-100%" variant="top" src={pd?.image} />
+                        <Card.Body className='body'>
                         <h3>{pd.name}</h3>
+                        <Link to={`/projects/${pd.id}`}>
+                              <button className=" link">Details</button>
+                          </Link>
 
-                        <div className="homebutton">
+                        {/* <div className="homebutton">
                           <div>
                           <button className="btn btn-info p-2 fs-5"><a className="link" href={pd.liveLink} target="_blank" rel="noreferrer">Live Link</a></button>
                           </div>
                           <div>
                           <button className="btn btn-info p-2 fs-5 "><a className="link" href={pd.clienSite} target="_blank" rel="noreferrer">Code Link</a></button>
                           </div>
-                          <Link to={`/projects
-                          /${pd.id}`}>
-                              {" "}
-                              <button className="btn btn-info p-2 fs-5">Order Now</button>
-                            </Link>
+                          
                         </div>
-                           
+                            */}
                         </Card.Body>
                     </Card>
             </div>

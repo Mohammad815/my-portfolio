@@ -20,11 +20,11 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Skill = () => {
   return (
-    <div className='skil-bg'>
-      <h1 className='text-white'>Professional Skills</h1>
+    <div className='skil-bg '>
+      <h1 className='text-white'>Comport Technology Ande Tools</h1>
       <Container>
             <Row>
-                <Col sm={8} xs={12} md={12} className='skill text-white'>
+                <Col sm={12} xs={12} md={12} className='skill text-white'>
                    
                       <div>
                       <img  src={img1} alt=""/>

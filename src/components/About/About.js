@@ -4,6 +4,7 @@ import img from '../../images/img.png'
 import bg from '../../images/bg.png'
 import './About.css'
 import Skills from '../Skills/Skill';
+import Projects from '../Projects/Projects';
 
 const About = () => {
     let bgimg= {
@@ -36,6 +37,7 @@ const About = () => {
 
         </div>
         <Skills></Skills>
+       
     </div>
     );
 };
