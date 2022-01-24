@@ -1,0 +1,20 @@
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill img{
+    width: 100px;
+    height: 90px;
+    margin-bottom: 8px;
+}
+.skil-bg{
+    background-color: #02021A;
+}
+.skill div{
+    border: 3px solid tomato;
+    margin: 10px;
+    
+    padding: 5px;
+    margin-bottom: 5px;
+} 
