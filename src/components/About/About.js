@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import img from '../../images/img.png'
 import bg from '../../images/bg.png'
 import './About.css'
-import Skill from '../Skill/Skill';
+import Skills from '../Skills/Skill';
 
 const About = () => {
     let bgimg= {
@@ -35,7 +35,7 @@ const About = () => {
             </Container>
 
         </div>
-        <Skill></Skill>
+        <Skills></Skills>
     </div>
     );
 };

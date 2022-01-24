@@ -14,7 +14,7 @@ const Contact = () => {
     return (
     
         
-        <Container>
+        <Container className='mb-3'>
             <h1 className='text-center text-white'>Contact Me</h1>
             <Row>
                 <Col  sm={12} md={6} >
