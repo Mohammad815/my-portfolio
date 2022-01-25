@@ -1,11 +1,11 @@
 import React from 'react';
-import MyServices from '../MyServices/MyServices';
+
 
 const Blog = () => {
     return (
-        <div>
+        <div className='p-5'>
             <h1>Coming Soon</h1>
-            <MyServices></MyServices>
+         
         </div>
     );
 };
