@@ -16,7 +16,7 @@ const MyProjects = () => {
    
     return (
         <div>
-      <h2 className="text-info mt-5 mb-4">Recent Projects</h2>
+      <h2 className="text-white text-color mt-5 mb-4">Recent Projects</h2>
       <Container>
       <div className="services ">
         <div className="row container ">

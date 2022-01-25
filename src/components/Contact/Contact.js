@@ -14,7 +14,8 @@ const Contact = () => {
     return (
     
         
-        <Container className='mb-3 mt-5'>
+       <div  className='mb-3  bgcolor'>
+            <Container className='p-3'>
             <h1 className='text-center text-white text-color'>Contact Me</h1>
             <Row>
                 <Col  sm={12} md={6} >
@@ -39,6 +40,7 @@ const Contact = () => {
             </Row>
 
         </Container>
+       </div>
      
     );
 };
