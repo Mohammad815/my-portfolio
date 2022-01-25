@@ -10,6 +10,7 @@ import Contact from '../../Contact/Contact';
 
 import { Container } from 'react-bootstrap';
 import Particles from "react-tsparticles";
+import MyServices from '../../MyServices/MyServices';
 
 const Home = () => {
 
@@ -137,8 +138,8 @@ const Home = () => {
                     <img className="img" src={img} alt="" />
                 </div>
                 <div className="col-md-7 home">
-                    <div className='text-white'>
-                        <h2>I`m Mohammad Forhd</h2>
+                    <div className='text-white text-color'>
+                        <h2>I`m Mohammad Forhad</h2>
                         <h4>Junior Front End Developer</h4>
                         <div style={{textAlign:'center'}}>
                             <button className="btn btn-info p-2" onClick={(e)=>download(e)}>DownLoad Resume</button>
@@ -149,6 +150,7 @@ const Home = () => {
             </Container>
             </div>
             <MyProjects></MyProjects>
+            <MyServices></MyServices>
             <Contact></Contact>
         </div>
     );

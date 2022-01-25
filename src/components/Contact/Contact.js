@@ -14,8 +14,8 @@ const Contact = () => {
     return (
     
         
-        <Container className='mb-3'>
-            <h1 className='text-center text-white'>Contact Me</h1>
+        <Container className='mb-3 mt-5'>
+            <h1 className='text-center text-white text-color'>Contact Me</h1>
             <Row>
                 <Col  sm={12} md={6} >
                     <div className="imgs">
@@ -25,8 +25,8 @@ const Contact = () => {
                 <Col sm={12} md={6}>
                     <div className=" p-3 text-white">
                        
-                            <form className="row form" onSubmit={sendEmail}>
-                                <label className="fs-4">name</label>
+                            <form className="row form text-color" onSubmit={sendEmail}>
+                                <label className="fs-4">Name</label>
                                 <input type="text" name="name"  className="form-control" />
                                 <label className="fs-4">Email</label>
                                 <input type="email" name="user_email"className="form-control p-2" />

@@ -20,7 +20,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Skill = () => {
   return (
-    <div className='skil-bg '>
+    <div className='skil-bg p-5'>
       <h1 className='text-white'>Comport Technology Ande Tools</h1>
       <Container>
             <Row>
@@ -85,9 +85,7 @@ const Skill = () => {
                  
                 </Col>    
             </Row>
-            <Row>
-                <Col sm={8} xs={12} md={8}>sm=true</Col>
-            </Row>
+          
 </Container>
     </div>
   )

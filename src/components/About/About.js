@@ -15,7 +15,7 @@ const About = () => {
       
     }
     return (
-        <div >
+        <div className='bgcolor text-color'>
             <div  style={ bgimg }>
             <Container className="p-5">
                 <Row className="about p-3">
@@ -23,7 +23,7 @@ const About = () => {
                         <div className="p-3">
                         <h1>Hi! I am Mohammad Forhad</h1>
                         <h3>
-                            I am a front web Developer.I have aquire the knowledge of full stack developer and acquiring knowledge day by day. I am very passionate about my work. I have some project-based experience using Html, CSS, Javascript, React JS, React Router, Express JS, Node JS, MongoDB, Firebase, Heroku, and other Technologies. I also used some CSS frameworks like Bootstrap, React Bootstrap Tailwind, and Material UI library.
+                            I am a front web Developer.I have aquire the knowledge of full stack developer and acquiring knowledge day by day. I am very passionate about my work. I have some project-based experience using HTML, CSS, Javascript, ReactJS, React Router, ExpressJS, NodeJS, MongoDB, Firebase, Heroku, and other Technologies. I also used some CSS frameworks like Bootstrap, React Bootstrap Tailwind, and Material UI library.
                         </h3>
                         </div>
                     </Col>
