@@ -12,7 +12,9 @@ const MyServices = () => {
           <h2 className='text-center mb-3 mt-4 text-color'>My Services</h2>
           <Row className='mb-3 text-color'>
               <Col  xs={12} md={4}>
-                <Card className="text-center ">
+                <Card className="text-center" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faPen} className='fs-2 mb-1 font' />
                             <h3>CREATIVE INTERFACE</h3>
@@ -25,7 +27,9 @@ const MyServices = () => {
                  </Card>
                 </Col>
               <Col xs={12} md={4}>
-                <Card className="text-center">
+                <Card data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faDesktop} className='fs-2 mb-1 font' />
                             <h3>USER INTERFACE</h3>
@@ -38,7 +42,9 @@ const MyServices = () => {
                  </Card>
                 </Col>
               <Col xs={12} md={4}>
-                <Card className="text-center">
+                <Card className="text-center" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faUsers} className='fs-2 mb-1 font' />        
                             <h3>USERS EXPERIENCE</h3>
@@ -53,7 +59,9 @@ const MyServices = () => {
           </Row>
           <Row className='text-color'>
               <Col xs={12} md={4}>
-                <Card className="text-center">
+                <Card className="text-center" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faPen} className='fs-2 mb-1 font' />
                             <h3>CLEAN CODE</h3>
@@ -66,7 +74,9 @@ const MyServices = () => {
                  </Card>
                 </Col>
               <Col xs={12} md={4}>
-                <Card className="text-center">
+                <Card className="text-center" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faCode} className='fs-2 mb-1 font' />
                             <h3>FAST SUPPORT</h3>
@@ -79,7 +89,9 @@ const MyServices = () => {
                  </Card>
                 </Col>
               <Col xs={12} md={4} >
-                <Card className="text-center ">
+                <Card className="text-center " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faUsers} className='fs-2 mb-1 font' />
                             <h3>REACT JS</h3>

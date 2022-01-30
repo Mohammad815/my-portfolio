@@ -23,7 +23,8 @@ const MyProjects = () => {
           {projects?.map((pd, index) => (
             <div className="col-md-6 col-lg-4 toy-img mb-3 ">
               
-              <Card className='card'>
+              <Card className='card' data-aos="fade-up"
+     data-aos-duration="3000">
                    <Card.Img className="img w-100%" variant="top" src={pd?.image} />
                         <Card.Body className='body'>
                         <h3>{pd.name}</h3>

@@ -2,9 +2,10 @@
     background: #02021A;
 }
 .img{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;    
+    height: 350px;
+    width: 250px;
+    border-radius: 50%;
+  
 }
 .home{
     display: flex;

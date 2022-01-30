@@ -134,14 +134,16 @@ const Home = () => {
       }}
     />
             <div className="row p-5" >
-                 <div className="col-md-5">
+                 <div className="col-md-5" data-aos="fade-up"
+     data-aos-duration="3000">
                     <img className="img" src={img} alt="" />
                 </div>
-                <div className="col-md-7 home">
+                <div className="col-md-7 home" data-aos="fade-up"
+     data-aos-duration="3000">
                     <div className='text-white text-color'>
                         <h2>I`m Mohammad Forhad</h2>
                         <h4>Junior Front End Developer</h4>
-                        <div style={{textAlign:'center'}}>
+                        <div data-aos="zoom-in-up" style={{textAlign:'center'}}>
                             <button className="btn btn-info p-2" onClick={(e)=>download(e)}>DownLoad Resume</button>
                         </div>
                     </div>
