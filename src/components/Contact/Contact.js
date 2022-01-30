@@ -14,12 +14,12 @@ const Contact = () => {
     return (
     
         
-       <div  className='mb-3  bgcolor'>
+       <div  className='bgcolor'>
             <Container className='p-3' >
             <h1 className='text-center text-white text-color'>Contact Me</h1>
             <Row data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 <Col  sm={12} md={6} >
                     <div className="imgs">
                         <img  src={img} alt=""/>

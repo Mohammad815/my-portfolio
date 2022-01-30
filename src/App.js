@@ -13,6 +13,7 @@ import AddProject from './components/AddProject/AddProject';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import ProjectDetails from './components/HomePage/ProjectDetails/ProjectDetails';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           <Route path="projects/:projectId" element={<ProjectDetails />} />
           <Route path="blog" element={<Blog />} />
         </Routes>
-     
+        <Footer></Footer>
     </BrowserRouter>
     </div>
   );

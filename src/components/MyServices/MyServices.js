@@ -6,7 +6,7 @@ import './Myservices.css'
 
 const MyServices = () => {
   return (
-    <div>
+    <div className='mb-5'>
    
       <Container>
           <h2 className='text-center mb-3 mt-4 text-color'>My Services</h2>
@@ -28,8 +28,8 @@ const MyServices = () => {
                 </Col>
               <Col xs={12} md={4}>
                 <Card data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <div className='p-3 bgcolor'>
                             <FontAwesomeIcon icon={faDesktop} className='fs-2 mb-1 font' />
                             <h3>USER INTERFACE</h3>
